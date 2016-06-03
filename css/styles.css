@@ -1,0 +1,104 @@
+/*Header Styles*/
+.container{
+  width: 100%;
+}
+.header {
+  height: 95px;
+}
+.header .nav-pills {
+  font-size: 28px;
+  margin-top:20px;
+}
+.header h1 {
+  font-family: 'Satisfy', cursive;
+  color: #F48059;
+  font-size: 50px;
+  margin-left: -15px;
+}
+
+.header img {
+  max-width: 120px;
+  margin-top: -15px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color:#61AEE6;
+  background-color: inherit;
+}
+
+a {
+  color: #61AEE6;
+  background-color: inherit;
+}
+
+/*Jumbotron Styles*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size:45px;
+}
+
+/*Featured Styles*/
+.featured h2 {
+  text-transform: uppercase;
+}
+
+.featured .item {
+  padding: 0 5px;
+}
+
+.featured .thumbnail {
+  background-color: #EDF1F4;
+  padding: 10px;
+}
+
+/*Services Styles*/
+.services h2 {
+  text-transform: uppercase;
+}
+
+.services ul li a {
+  text-transform: uppercase;
+  color: #61AEE6;
+}
+
+/*Footer Styles*/
+footer {
+  background-color: #231F20;
+  padding: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+footer .row {
+margin: 0;
+}
+
+footer img {
+  max-width: 150px;
+}
+
+footer a {
+  color: #ddd;
+}
+
+footer i {
+  padding-right: 5px;
+}
+
+footer .border {
+  border-left: 1px solid #505050;
+}
+
+footer .copyright {
+  color: #333;
+}
