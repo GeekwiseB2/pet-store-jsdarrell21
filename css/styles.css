@@ -1,9 +1,7 @@
 /*Header Styles*/
-.container{
-  width: 100%;
-}
 .header {
   height: 95px;
+  width: 100%;
 }
 .header .nav-pills {
   font-size: 28px;
@@ -22,8 +20,8 @@
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  color:#61AEE6;
-  background-color: inherit;
+  color:#fff;
+  background-color: #F48059;
 }
 
 a {
@@ -69,6 +67,26 @@ a {
 .services ul li a {
   text-transform: uppercase;
   color: #61AEE6;
+}
+
+/*Table Style*/
+.table {
+  margin-top: 50px;
+}
+
+/*Map Styles*/
+.map {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /*Footer Styles*/
