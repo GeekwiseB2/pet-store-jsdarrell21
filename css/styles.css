@@ -1,122 +1,158 @@
-/*Header Styles*/
-.header {
-  height: 95px;
+/*Google Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+html, body {
   width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-.header .nav-pills {
-  font-size: 28px;
-  margin-top:20px;
+
+/*Nav Styles*/
+.logo {
+  width: 110px;
 }
-.header h1 {
+
+.logo-text {
   font-family: 'Satisfy', cursive;
-  color: #F48059;
-  font-size: 50px;
-  margin-left: -15px;
+  font-size: 45px;
+  color: #ff827b;
 }
 
-.header img {
-  max-width: 120px;
-  margin-top: -15px;
+.nav {
+  font-size: 20px;
+  color: #61aee6;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  color:#fff;
-  background-color: #F48059;
+.menu {
+  width: 80vw;
 }
 
-a {
-  color: #61AEE6;
-  background-color: inherit;
+.nav-pills {
+  padding-top: 25px;
+  font-size: 28px;
+  padding-left: 15px;
 }
 
 /*Jumbotron Styles*/
-.jumbotron {
-  background-image: url('../img/hero.jpg');
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
+.jumbotron, .container-fluid{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
-.jumbotron h1 {
-  font-family: 'Open Sans', sans-serif;
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 60vh;
+  padding-top: 0;
+}
+
+.jumbotron p {
+  text-transform :uppercase;
   color: #fff;
+  text-align: center;
+  font-size: 35px;
   font-weight: 300;
-  text-transform: uppercase;
-  font-size:45px;
+  padding-top: 70px;
 }
 
 /*Featured Styles*/
-.featured h2 {
+.featured-services {
+  width: 80vw;
+  margin: 30px auto;
+  height: 60vh;
+}
+
+.featured-text {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
-.featured .item {
-  padding: 0 5px;
+.thumbnail {
+  background: #edf1f4;
+  padding: 15px 15px 0 15px;
 }
 
-.featured .thumbnail {
-  background-color: #EDF1F4;
-  padding: 10px;
-}
-
-/*Services Styles*/
-.services h2 {
+.adopt-link {
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-.services ul li a {
-  text-transform: uppercase;
-  color: #61AEE6;
+.adopt-link:hover {
+  color: #ff827b;
 }
 
-/*Table Style*/
-.table {
-  margin-top: 50px;
+.adopt-info, .featured-info {
+  font-size: 20px;
+  font-weight: 400;
 }
 
-/*Map Styles*/
-.map {
-  position: relative;
-  padding-bottom: 75%; // This is the aspect ratio
-  height: 0;
-  overflow: hidden;
-}
-.map iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
+.adopt-info {
+  line-height: 2em;
 }
 
-/*Footer Styles*/
-footer {
-  background-color: #231F20;
-  padding: 30px;
-  margin-top: 50px;
+.featured-info {
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.thumbnail-title {
+  font-weight: 700;
+}
+
+.thumbnail-info {
+  text-align: justify;
   font-size: 20px;
 }
 
-footer .row {
-margin: 0;
+/*Footer Styles*/
+.footer {
+  background-color: #231f20;
+  min-height: 90px;
+  margin-top: 120px;
+  color: #bfc0c1;
+  width: 100%;
 }
 
-footer img {
-  max-width: 150px;
+.footer a {
+  color: #bfc0c1;
 }
 
-footer a {
-  color: #ddd;
+.footer-logo {
+  width: 130px;
 }
 
-footer i {
-  padding-right: 5px;
+.footer-cols {
+    border-right: 1px solid #333;
 }
 
-footer .border {
-  border-left: 1px solid #505050;
+.footer-cols address, .footer-links {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-size: 18px;
 }
 
-footer .copyright {
-  color: #333;
+.col-md-3 address:hover, .col-md-3 address a:hover, .footer-links a:hover {
+  color: #ff827b;
+}
+
+.inner-footer {
+  padding-top: 25px;
+}
+
+.row i {
+  padding-right: 8px;
+}
+
+.copyright {
+  color: #4c4c4c;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.row a {
+  text-decoration: none;
 }
